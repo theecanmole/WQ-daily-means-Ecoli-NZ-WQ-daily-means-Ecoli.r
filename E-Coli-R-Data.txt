@@ -1,0 +1,42 @@
+
+Office of the Ombudsman - ref 451466
+
+From:  	"Michael Cleary" <Michael.Cleary@ombudsman.parliament.nz>
+
+Subject:  	E coli data
+From:  	"Claire McClintock" <Claire.McClintock@mfe.govt.nz>
+Date:  	Wed, July 5, 2017 11:00 am
+To:  	"simonjohnson#########"
+
+Dear Mr Johnson,
+
+Following our contact with the Office of the Ombudsman we understand that you would like a copy of the RData file containing raw data from individual freshwater monitoring sites. Please find the RData file attached.
+
+This data informed the modelling carried out by Snelder et. al. (see Strategic assessment of New Zealand’s freshwaters for recreational use: a human health perspective<http://www.mfe.govt.nz/publications/fresh-water/strategic-assessment-of-new-zealand%E2%80%99s-freshwaters-recreational-use-human> for information about the modelling) that was used to develop the graph in the Clean Water consultation document that you asked about in your request on 15 March.
+
+The attached RData file contains data about individual monitoring results for individual sites. Basically it tells you what the E. coli levels were on a specific date and time, at a specific monitoring site.
+
+The file includes the following fields:
+·        sID ---- Unique site ID
+·        srcid ---- Region site is located in
+·        sflag ---- River (r) or Estuary (e)
+·        river ---- River name
+·        location ---- Name of site
+·        nzmge ---- easting
+·        nzmgn ---- northing
+·        NZReach ---- REC1 segment identifier
+·        sDate ---- sample date
+·        Q ---- Recorded flow when sample was taken, cumecs
+·        npid ---- NIWA parameter ID (as used in Larned et al. 2015)
+·        values ---- Parameter value (units are ECOLI (n/100 mL))
+
+Please note the RData file contains raw data supplied by NIWA and has not been quality assurance checked by the Ministry for the Environment. It includes E.coli data from NIWA and Regional Council monitoring sites over the period 1990-2014.  If you would like to talk to someone from MfE about the data, please let me know and
+I’ll arrange it for you.
+
+This data is only one of many components that was used to develop the model which in turn was used to develop the bar graph you asked about in your original request. There were several steps between the raw data and the modelled outputs; for information about what the model involves please see Strategic assessment of New Zealand’s freshwaters for recreational use: a human health perspective<http://www.mfe.govt.nz/publications/fresh-water/strategic-assessment-of-new-zealand%E2%80%99s-freshwaters-recreational-use-human>.
+
+Ngā mihi
+
+Claire McClintock – Manager, Executive Relations
+Ministry for the Environment – Manatū Mō Te Taiao
+
