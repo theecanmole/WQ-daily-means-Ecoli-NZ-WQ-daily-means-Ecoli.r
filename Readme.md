@@ -2,7 +2,7 @@
 
 ### Description
 
-In March 2017, the New Zealand Government announced a consultation over it's proposed [Clean Water package 2017](http://www.mfe.govt.nz/fresh-water/freshwater-management-reforms/clean-water-package-2017).
+In March 2017, the [New Zealand Government announced](https://www.beehive.govt.nz/release/90-rivers-and-lakes-swimmable-2040) a consultation over it's proposed [Clean Water package 2017](http://www.mfe.govt.nz/fresh-water/freshwater-management-reforms/clean-water-package-2017).
 
 The package proposed a revised definition of the 'swimmability' of rivers and lakes. The base data were E coli counts from river sampling sites in New Zealand's National Rivers Water Quality Network. The counts were transformed into lengths of river segments (reachs) and the reachs were binned into five categories. 
 
