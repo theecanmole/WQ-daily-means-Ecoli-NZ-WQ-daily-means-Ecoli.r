@@ -1,4 +1,4 @@
-load (file="/home/simon/R/bp/WQdailymeansEcoli.rdata", envir=globalenv())
+load (file="/home/simon/R/WQ-daily-means-Ecoli-NZ/WQdailymeansEcoli.rdata", envir=globalenv())
 
 ls()
 [1] "WQdailymeansEcoli"
@@ -21,6 +21,9 @@ str(WQdailymeansEcoli)
  
 # write  as .csv file 
 write.table(WQdailymeansEcoli, file = "WQdailymeansEcoli.csv", sep = ",", col.names = TRUE, qmethod = "double",row.names = FALSE)
+
+# or
+write.csv(WQdailymeansEcoli, file = "WQdailymeansEcoli.csv",row.names=FALSE)
 
 # write  as .xls file Excel 2007/10
 
@@ -51,23 +54,17 @@ head(WQdailymeansEcoli)
 449 ECOLI    127
 
 getwd()
-[1] "/home/simon/R"
-setwd("/home/simon/R/bp")
+# [1] "/home/simon/R/
+
+setwd("/home/simon/R/WQ-daily-means-Ecoli-NZ")
 getwd()
-[1] "/home/simon/R/bp"
+#[1] "/home/simon/R/WQ-daily-means-Ecoli-NZ"
 
-write.csv(WQdailymeansEcoli, file = "WQdailymeansEcoli.csv",row.names=FALSE)
-
-write.csv(WQdailymeansEcoli, file = "WQdailymeansEcoli.csv",row.names=FALSE)
-
-# To upload a file, run the following command in xterminal :
+# To upload a file to Google Drive, run the following command in an xterminal window:
 
 simon@I6:~
-$ cd /home/simon/R/bp/
-simon@I6:~/R/bp
+$ cd /home/simon/R/WQ-daily-means-Ecoli-NZ/
+simon@I6:~/R/WQ-daily-means-Ecoli-NZ/
 $ gdrive upload WQdailymeansEcoli.rdata
 Uploading WQdailymeansEcoli.rdata
 Uploaded 0B8LhMBA3NXL4SUx5OXlLaXJndGs at 123.2 KB/s, total 503.2 KB
-simon@I6:~/R/bp
-
-gdrive upload WQdailymeansEcoli.rdata

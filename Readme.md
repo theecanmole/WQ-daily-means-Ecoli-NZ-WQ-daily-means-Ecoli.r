@@ -2,7 +2,7 @@
 
 ### Description
 
-In March 2017, the National Government announced a consultation over it's proposed [Clean Water package 2017](http://www.mfe.govt.nz/fresh-water/freshwater-management-reforms/clean-water-package-2017).
+In March 2017, the New Zealand Government announced a consultation over it's proposed [Clean Water package 2017](http://www.mfe.govt.nz/fresh-water/freshwater-management-reforms/clean-water-package-2017).
 
 The package proposed a revised definition of the 'swimmability' of rivers and lakes. The base data were E coli counts from river sampling sites in New Zealand's National Rivers Water Quality Network. The counts were transformed into lengths of river segments (reachs) and the reachs were binned into five categories. 
 
@@ -16,8 +16,10 @@ On 5 July 2017, after a complaint to the Office of the Ombudsmen, I was emailed 
 
 The repository holds the data in .rdata format, the data in .csv format and a very short R script file.
 
-WQdailymeansEcoli.rdata
+1. WQdailymeansEcoli.rdata
 
-WQdailymeansEcoli.csv
+2. WQdailymeansEcoli.csv
 
-WQ-daily-means-Ecoli.r
+3. WQ-daily-means-Ecoli.r
+
+4. E-Coli-R-Data.txt	An email from the Ministry for the Environment
